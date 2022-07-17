@@ -5,6 +5,7 @@ import MultiForm from "./demo04/MultiForm";
 import NameForm from "./demo04/NameForm";
 import Calculator from "./demo05/Calculator";
 import Composition from "./demo06/Composition";
+import ProductSearch from "./demo07/ProductSearch";
 
 export const routes = [
   {
@@ -41,5 +42,10 @@ export const routes = [
     text: "组合 vs 继承",
     path: "/demo06",
     component: Composition,
+  },
+  {
+    text: "搜索",
+    path: "/demo07",
+    component: ProductSearch,
   },
 ];
