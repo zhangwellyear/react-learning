@@ -4,6 +4,7 @@ import ConditionResult from "./demo03/ConditionRender";
 import MultiForm from "./demo04/MultiForm";
 import NameForm from "./demo04/NameForm";
 import Calculator from "./demo05/Calculator";
+import Composition from "./demo06/Composition";
 
 export const routes = [
   {
@@ -35,5 +36,10 @@ export const routes = [
     text: "状态提升 - 温度显示",
     path: "/demo05",
     component: Calculator,
+  },
+  {
+    text: "组合 vs 继承",
+    path: "/demo06",
+    component: Composition,
   },
 ];

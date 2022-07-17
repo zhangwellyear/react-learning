@@ -1,0 +1,7 @@
+.FancyBorder {
+    border: 1px dashed #449032;
+}
+
+.FancyBorder-blue {
+    border: 1px solid blue;
+}
