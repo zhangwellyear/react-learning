@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Route, NavLink, Switch } from "react-router-dom";
 import { routes } from "../../routes";
-import "./index.css";
+import styles from "./index.module.scss";
 
 class Menu extends Component {
   render() {
     return (
-      <div className={"app"}>
-        <div className="menu">
+      <div className={styles.app}>
+        <div className={styles.menu}>
           <ul>
             {routes.map((route, idx) => (
               <li key={idx}>
@@ -16,7 +16,7 @@ class Menu extends Component {
             ))}
           </ul>
         </div>
-        <div className="content">
+        <div className={styles.content}>
           <Switch>
             {routes.map((route, idx) => (
               <Route key={idx} path={route.path} component={route.component} />

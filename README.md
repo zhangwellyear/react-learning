@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### node version
+因为`node-sass`版本问题，当前项目通过`node -v 14`运行
+
 ## Available Scripts
 
 In the project directory, you can run:

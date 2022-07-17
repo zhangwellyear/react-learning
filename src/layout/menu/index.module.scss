@@ -1,0 +1,17 @@
+.app {
+    display: flex;
+
+    .menu {
+        flex-basis: 200px;
+
+        li {
+            list-style: none;
+            line-height: 24px;
+            margin-left: 12px;
+        }
+    }
+
+    .content {
+        width: 100%;
+    }
+}
