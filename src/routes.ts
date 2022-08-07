@@ -6,6 +6,8 @@ import NameForm from "./demo04/NameForm";
 import Calculator from "./demo05/Calculator";
 import Composition from "./demo06/Composition";
 import ProductSearch from "./demo07/ProductSearch";
+import LazyLoad from "./demo08/LazyLoad";
+import MiddleWare from "./demo09/MiddleWare";
 
 export const routes = [
   {
@@ -47,5 +49,15 @@ export const routes = [
     text: "搜索",
     path: "/demo07",
     component: ProductSearch,
+  },
+  {
+    text: "懒加载",
+    path: "/demo08",
+    component: LazyLoad,
+  },
+  {
+    text: "中间件",
+    path: "/demo09",
+    component: MiddleWare,
   },
 ];

@@ -1,0 +1,11 @@
+.tabs {
+    display: flex;
+
+    li {
+        text-decoration: underline;
+
+        &.active {
+            text-decoration: blue;
+        }
+    }
+}
